@@ -1,0 +1,25 @@
+%!TEX program = xelatex
+\documentclass[10pt,a4paper]{ctexart}	
+% 设置内间距
+\usepackage[top=0.5in, bottom=0.5in, left=1in, right=1in]{geometry}
+% 引入hyperref(使用超链接)，并设置样式
+\usepackage[colorlinks,linkcolor=red]{hyperref}
+% 设置section样式
+\CTEXsetup[format={\Large\textbf}]{section}
+% 隐藏页码
+\pagestyle{empty}
+\begin{document}
+% 引入各模块
+\input{section/userinfo}
+\input{section/education}
+\input{section/skill}
+\input{section/work}
+\input{section/introduction}
+\end{document}
+
+%%% Local Variablesh:
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-master: t
+%%% TeX-engine: xetex
+%%% End:
